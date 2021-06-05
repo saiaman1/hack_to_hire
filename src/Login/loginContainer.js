@@ -5,7 +5,13 @@ export default class Login extends React.Component{
         super(props);
     }
     componentDidMount = () => {
-        const loginRes = localStorage.getItem('login');
+        // const loginRes = localStorage.getItem('login');
+        const loginRes = {
+            "id": "1",
+            "memberId": "abc@gmail.com",
+            "password": "abc",
+            "userType": "admin"
+        };
         if(loginRes){
             this.props.history.push(loginRes.userType === 'member' ? '/member' : 'admin'); 
         }

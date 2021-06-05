@@ -1,0 +1,6 @@
+
+
+1) Run "json-server --port 7000 --routes routes.json --watch db.json" in the source folder
+2) Run npm install and afterwards, npm start in the source folder
+3) Now, we can acess the admin page with the URL "http://localhost:5043/admin", here admin can use the search feature and Add a book feature
+4) Please refer the 'localScreenShot.png' for the local screenshot captured
