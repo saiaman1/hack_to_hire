@@ -1,0 +1,6 @@
+{
+    "/login/user": "/users/:memberId",
+    "/borrowedBooks": "/borrowedBooks",
+    "/borrowedBooks/:memberId": "/borrowedBooks/:memberId",
+    "/books": "/books"
+}

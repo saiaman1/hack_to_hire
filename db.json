@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "memberId": "abc@gmail.com",
+      "password": "abc",
+      "userType": "admin"
+    },
+    {
+      "id": "2",
+      "memberId": "xyz@gmail.com",
+      "password": "xyz",
+      "userType": "member"
+    },
+    {
+      "id": "3",
+      "memberId": "mno@gmail.com",
+      "password": "mno",
+      "userType": "member"
+    }
+  ],
+  "borrowedBooks": {
+    "xyz@gmail.com": [
+      {
+        "UUID": "u1",
+        "borrowedDate": "05/06/2020",
+        "returnDate": "18/06/2020",
+        "title": "Far from Earth",
+        "author": "Sherlock Homes",
+        "category": "Drama",
+        "status": "BORROWED",
+        "totalCopies": 5,
+        "availCopies": 2
+      },
+      {
+        "UUID": "u3",
+        "borrowedDate": "21/05/2020",
+        "returnDate": "04/06/2020",
+        "title": "Far from Mars",
+        "author": "Homes",
+        "category": "Fantasy",
+        "status": "OVERDUE",
+        "totalCopies": 5,
+        "availCopies": 2
+      },
+      {
+        "UUID": "u2",
+        "borrowedDate": "18/05/2020",
+        "returnDate": "01/06/2020",
+        "title": "Far from Earth",
+        "author": "Sherlock Homes",
+        "category": "Drama",
+        "status": "BORROWED",
+        "totalCopies": 5,
+        "availCopies": 2
+      }
+    ],
+    "mno@gmail.com": [
+      {
+        "UUID": "u1",
+        "borrowedDate": "05/06/2020",
+        "returnDate": "18/06/2020",
+        "title": "Far from Earth",
+        "author": "Sherlock Homes",
+        "category": "Drama",
+        "status": "BORROWED",
+        "totalCopies": 5,
+        "availCopies": 2
+      }
+    ]
+  },
+  "books": [
+    {
+      "id": "1",
+      "UUID": "u1",
+      "title": "Far from Earth",
+      "author": "Sherlock Homes",
+      "category": "Drama",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 5
+    },
+    {
+      "id": "2",
+      "UUID": "u2",
+      "title": "Far from Home",
+      "author": "John",
+      "category": "Comedy",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 1
+    },
+    {
+      "id": "3",
+      "UUID": "u3",
+      "title": "Far from Mars",
+      "author": "Homes",
+      "category": "Fantasy",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 7
+    },
+    {
+      "id": "4",
+      "UUID": "u4",
+      "title": "Far from Mars2",
+      "author": "Homes",
+      "category": "Fantasy",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 6
+    },
+    {
+      "id": "5",
+      "UUID": "u5",
+      "title": "Far from Mars3",
+      "author": "Homes",
+      "category": "Fantasy",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 1
+    },
+    {
+      "id": "6",
+      "UUID": "u6",
+      "title": "Far from Mars4",
+      "author": "Homes",
+      "category": "Fantasy",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 3
+    },
+    {
+      "id": "7",
+      "UUID": "u7",
+      "title": "Far from Mars7",
+      "author": "Homes",
+      "category": "Fantasy",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 1
+    },
+    {
+      "id": "8",
+      "UUID": "u8",
+      "title": "Far from Mars8",
+      "author": "Homes",
+      "category": "Sci-Fi",
+      "totalCopies": 5,
+      "availCopies": 2,
+      "rackNo": 4
+    },
+    {
+      "title": "Sky Light",
+      "author": "James",
+      "category": "Action",
+      "rackNo": "5",
+      "totalCopies": "3",
+      "availCopies": "3",
+      "id": "UMY7SXF"
+    },
+    {
+      "title": "Sky Light",
+      "author": "James",
+      "category": "Action",
+      "rackNo": "5",
+      "totalCopies": "4",
+      "availCopies": "4",
+      "id": "le2uAC7"
+    }
+  ]
+}
